@@ -73,8 +73,11 @@ Este repositorio contiene el código fuente y la documentación para el desarrol
 ## Arquitectura y Decisiones Técnicas
 > *Esta sección será completada a medida que se desarrolle el proyecto, documentando los patrones utilizados y la estructura técnica.*
 
+### Decisiones de Negocio
+- **Soporte IA:** Se decidió utilizar un agente de IA como soporte técnico principal (Google Antigravity) para acelerar el desarrollo, automatizar configuraciones (ej. integración inicial de Angular, Ionic y Supabase) y asistir en el diseño técnico.
+
 ### Frontend (Angular)
-- *A definir.*
+- **Arquitectura Base**: Se utilizó la configuración inicial y arquitectura Standalone propuesta por Supabase, integrando componentes de Ionic para la interfaz de usuario.
 
 ### Backend (Supabase)
 - *A definir (Modelo Relacional, Autenticación, Políticas de Seguridad RLS, Storage).*
